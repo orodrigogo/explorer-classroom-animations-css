@@ -1,0 +1,40 @@
+:root {
+  --red: #F75A68;
+  --green: #00B37E;
+  --orange: #FBA94C;
+  --gray: #7C7C8A;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin: 10px;
+}
+
+.bg-red {
+  background: var(--red);
+}
+
+.bg-green {
+  background: var(--green);
+}
+
+.bg-orange {
+  background: var(--orange);
+}
+
+.bg-gray {
+  background: var(--gray);
+}
+
+section {
+  width: 100%;
+  display: flex;
+  position: relative;
+
+}
